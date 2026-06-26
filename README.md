@@ -100,27 +100,27 @@ La incorporación de distintos estados, un GIF, animaciones y un minijuego hace 
 ##PROCESO 
 
 Hay capturas de pantalla pero también explicare mi proceso de manera escrita (En los comentarios de las capturas hay parte de el proceso)
-[Proceso 1](Proceso1.png) El primer paso que tomé fue cargar la fuente de texto que utilicé antes de el "create canvas" 
+![Proceso 1](Proceso1.png) El primer paso que tomé fue cargar la fuente de texto que utilicé antes de el "create canvas" 
 
-[Proceso 2](Proceso2.png) El segundo paso también fue bastante sencillo, ya que simplemente cree la pantalla inicial de mi "Juego" seteando un color de fonfo con "background" y centrando las primeras indicaciones a seguir con la tipografía previamente descargada
+![Proceso 2](Proceso2.png) El segundo paso también fue bastante sencillo, ya que simplemente cree la pantalla inicial de mi "Juego" seteando un color de fonfo con "background" y centrando las primeras indicaciones a seguir con la tipografía previamente descargada
 
-[Proceso 2,5](Proceso2,5.png) En el siguiente paso tomé el paso bastante largo y generé todos los ellipses que quería que se movieran a mano 
+![Proceso 2,5](Proceso2,5.png) En el siguiente paso tomé el paso bastante largo y generé todos los ellipses que quería que se movieran a mano 
 
-[Proceso3](Proceso3.png) El paso 3 me di cuenta que con "for" "let" podía lograr lo mismo sin necesidad de generar los ellipses a mano y moverlos individualmente
+![Proceso3](Proceso3.png) El paso 3 me di cuenta que con "for" "let" podía lograr lo mismo sin necesidad de generar los ellipses a mano y moverlos individualmente
 
-[Proceso 3,5](Proceso3,5.png) Con "movimientoInicio += 4;" logré que con cada vez que se ejecuta "draw" los círculos se muevan horizontalmente 4 pixeles y para hacer que se muevan todos juntos utilicé "ellipse(20 + movimientoInicio, y, 20);" que hace que este loop se mueva junto y por último la variable "if" hace que este movimiento se repita una vez llegue a su destino final que es el borde derecho
+![Proceso 3,5](Proceso3,5.png) Con "movimientoInicio += 4;" logré que con cada vez que se ejecuta "draw" los círculos se muevan horizontalmente 4 pixeles y para hacer que se muevan todos juntos utilicé "ellipse(20 + movimientoInicio, y, 20);" que hace que este loop se mueva junto y por último la variable "if" hace que este movimiento se repita una vez llegue a su destino final que es el borde derecho
 
-[Proceso 4](Proceso4.png) Este paso fue de prueba quize utilizar "push" para guardar en video hasta que entendí que "drawingcontext.save" cumplia una funsión similar de gusrdar este estado para luego restaurarlo y que los cambios como ese cículo invisible en donde solo dejaba ver lo que estaba dentro de este no afectara las pantallas siguientes, todo esto también gracias a la funsión de "drawingcontext.restorer" el cual restaura el estado normal de el canva luego de que esta acción suceda 
+![Proceso 4](Proceso4.png) Este paso fue de prueba quize utilizar "push" para guardar en video hasta que entendí que "drawingcontext.save" cumplia una funsión similar de gusrdar este estado para luego restaurarlo y que los cambios como ese cículo invisible en donde solo dejaba ver lo que estaba dentro de este no afectara las pantallas siguientes, todo esto también gracias a la funsión de "drawingcontext.restorer" el cual restaura el estado normal de el canva luego de que esta acción suceda 
 
-[Proceso 4,5](Proceso4,5.png) Esta es la demostración de el gif utilizado ya formado 
+![Proceso 4,5](Proceso4,5.png) Esta es la demostración de el gif utilizado ya formado 
 
-[Proceso 5](Proceso5.png) aquí reutilicé la figura que había creado en la segunda solemne para contener el gif, pero le agregue las instrucciónes para continuar con el juego y mantuve el mismo fondo
+![Proceso 5](Proceso5.png) aquí reutilicé la figura que había creado en la segunda solemne para contener el gif, pero le agregue las instrucciónes para continuar con el juego y mantuve el mismo fondo
 
-[Proceso 6](Proceso6.png) En este paso dejo que los "let" controlen la velocidad y cantidad de franjas provenientes de el elipse, también para lograr esto use "framecount" que va aumentando las figuras en cada frame y las reparte de manera uniforme 
+![Proceso 6](Proceso6.png) En este paso dejo que los "let" controlen la velocidad y cantidad de franjas provenientes de el elipse, también para lograr esto use "framecount" que va aumentando las figuras en cada frame y las reparte de manera uniforme 
 
-[Proceso 7](Proceso7.png) un poco más de la pantalla 2 antes de la variación que ocurre al apretar la tecla espacio 
+![Proceso 7](Proceso7.png) un poco más de la pantalla 2 antes de la variación que ocurre al apretar la tecla espacio 
 
-[Proceso 8](Proceso8.png) aqui hice algunos ajustes a la pantalla de inicio como bajar el dígito de "alpha" para lograr una transparencia más fluida 
+![Proceso 8](Proceso8.png) aqui hice algunos ajustes a la pantalla de inicio como bajar el dígito de "alpha" para lograr una transparencia más fluida 
 
-[Proceso 9](Proceso9.png) Estos círculos se generan gracias a un ciclo "for", que repite el dibujo varias veces para crear muchas figuras al mismo tiempo. Su posición se calcula con las funciones "cos()" y "sin()", lo que hace que se distribuyan formando un círculo alrededor del centro de la pantalla. Además, como el ángulo cambia constantemente con "frameCount", las figuras parecen girar de forma continua. Finalmente, utilicé "map()" para que el tamaño de los círculos cambie según la posición del mouse, haciendo que la visualización sea interactiva.
+![Proceso 9](Proceso9.png) Estos círculos se generan gracias a un ciclo "for", que repite el dibujo varias veces para crear muchas figuras al mismo tiempo. Su posición se calcula con las funciones "cos()" y "sin()", lo que hace que se distribuyan formando un círculo alrededor del centro de la pantalla. Además, como el ángulo cambia constantemente con "frameCount", las figuras parecen girar de forma continua. Finalmente, utilicé "map()" para que el tamaño de los círculos cambie según la posición del mouse, haciendo que la visualización sea interactiva.
 
