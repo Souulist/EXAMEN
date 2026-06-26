@@ -124,3 +124,9 @@ Hay capturas de pantalla pero también explicare mi proceso de manera escrita (E
 
 ![Proceso 9](./Proceso9.png) Estos círculos se generan gracias a un ciclo "for", que repite el dibujo varias veces para crear muchas figuras al mismo tiempo. Su posición se calcula con las funciones "cos()" y "sin()", lo que hace que se distribuyan formando un círculo alrededor del centro de la pantalla. Además, como el ángulo cambia constantemente con "frameCount", las figuras parecen girar de forma continua. Finalmente, utilicé "map()" para que el tamaño de los círculos cambie según la posición del mouse, haciendo que la visualización sea interactiva.
 
+##Lo que más me costo de este proceso 
+
+Lo que más me costó durante este proyecto fue lograr que todas las partes del código funcionaran juntas sin generar errores. A medida que iba agregando nuevas funciones, como las distintas pantallas, el GIF, la interacción con el teclado y el minijuego, aparecían problemas que me obligaban a revisar y reorganizar el código varias veces. También tuve que aprender a usar funciones que no conocía, como el manejo del "drawingContext" para mostrar el GIF dentro de un círculo y la lógica para controlar los distintos estados del programa. Aunque fue un proceso de prueba y error, siento que fue la parte donde más aprendí, porque entendí mejor cómo se relacionan las funciones, las variables y la estructura completa de un proyecto en p5.js.
+
+#LINK DE P5JS
+[Link P5js](https://editor.p5js.org/220964701/sketches/FF8JgHoJu).
