@@ -100,3 +100,4 @@ La incorporación de distintos estados, un GIF, animaciones y un minijuego hace 
 ##PROCESO 
 
 Hay capturas de pantalla pero también explicare mi proceso de manera escrita 
+![Proceso1](Proceso1.png) 
